@@ -8,42 +8,44 @@
 
 Описание столбцов (параметров объекта):
 
-Suburb – район
-Address – адрес
-Rooms – количество комнат
-Type – тип объекта
-    br - bedroom(s);
-    h - house, cottage, villa, semi, terrace;
-    u - unit, duplex;
-    t - townhouse;
-    dev site - development site;
-    o res - other residential.
-Price – цена объекта
-Method – метод продажи объекта:
-    S - property sold;
-    SP - property sold prior;
-    PI - property passed in;
-    PN - sold prior not disclosed;
-    SN - sold not disclosed;
-    NB - no bid;
-    VB - vendor bid;
-    W - withdrawn prior to auction;
-    SA - sold after auction;
-    SS - sold after auction price not disclosed.
-    N/A - price or highest bid not available.
-SellerG – имя риэлтора
-Date – дата продажи объекта
-Distance – расстояние до центрального района в километрах
-Postcode – почтовый индекс
-Bedrooms2 – количество спален
-Bathroom – количество ванных комнат
-Car – количество парковочных мест
-Landsize – площадь прилегающей территории
-BuildingArea – площадь самого объекта
-YearBuilt – год постройки
-CouncilArea – округ
-Lattitude – широта
-Longtitude – долгота
-Regionname – еще одно административное деление на подобие округа
-Propertycount – количество объектов в округе
-id – id объекта
+| Наименование колонки | Описание колонки |
+| -------------------- | ---------------- |
+| Suburb | Район |
+| Address | Адрес |
+| Rooms | Количество комнат |
+| Type | Тип объекта: |
+|    br - bedroom(s); |
+|    h - house, cottage, villa, semi, terrace; |
+|    u - unit, duplex; |
+|    t - townhouse; |
+|    dev site - development site; |
+|    o res - other residential; |
+| Price | Цена объекта |
+| Method | Метод продажи объекта: |
+|    S - property sold; |
+|    SP - property sold prior; |
+|    PI - property passed in; |
+|    PN - sold prior not disclosed; |
+|    SN - sold not disclosed; |
+|    NB - no bid; |
+|    VB - vendor bid; |
+|    W - withdrawn prior to auction; |
+|    SA - sold after auction; |
+|    SS - sold after auction price not disclosed; |
+|    N/A - price or highest bid not available. |
+| SellerG | Имя риэлтора |
+| Date | Дата продажи объекта |
+| Distance | Расстояние до центрального района в километрах |
+| Postcode | Почтовый индекс |
+| Bedrooms2 | Количество спален |
+| Bathroom | Количество ванных комнат |
+| Car | Количество парковочных мест |
+| Landsize | Площадь прилегающей территории |
+| BuildingArea | Площадь самого объекта |
+| YearBuilt | Год постройки |
+| CouncilArea | Округ |
+| Lattitude | Широта |
+| Longtitude | Долгота |
+| Regionname | Ещё одно административное деление |
+| Propertycount | Количество объектов в округе |
+| id | id объекта |
